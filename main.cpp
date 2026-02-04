@@ -113,6 +113,7 @@ int main() {
     } else {
         cout << "Needs improvement - check the failing tests above.\n";
     }
+    cout << "GRADE: " << total << "/30\n";
 
     return total;
 }
