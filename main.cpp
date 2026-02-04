@@ -109,7 +109,7 @@ int main() {
     if (total >= 25) {
         cout << "Excellent! The struct implementation looks solid.\n";
     } else if (total >= 18) {
-        cout << "Good, but some issues need fixing..\n";
+        cout << "Good, but some issues need fixing...\n";
     } else {
         cout << "Needs improvement - check the failing tests above.\n";
     }
