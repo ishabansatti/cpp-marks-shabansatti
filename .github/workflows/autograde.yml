@@ -5,19 +5,14 @@ on: [push, pull_request]
 jobs:
   grade:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Compile
+      - name: Compile and run tests
         run: |
           g++ -std=c++17 -Wall -Wextra -Werror main.cpp -o test_program
-
-      - name: Run tests
-        run: |
           ./test_program > result.txt
 
-      - name: Show output
-        run: |
-          cat result.txt
+      - name: Show test output
+        run: cat result.txt
