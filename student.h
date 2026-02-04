@@ -21,9 +21,10 @@ struct Student {
         std::cout << "Name        : " << name << "\n";
         std::cout << "Roll Number : " << rollNumber << "\n";
         std::cout << "Marks       : " << marks[0] << ", "
-                  << marks[1] << ", " << marks[2] << "\n";
+                  << marks[1] << ", " << marks[1] << "\n";
         std::cout << "Percentage  : " << percentage << "%\n";
     }
 };
+
 
 #endif
