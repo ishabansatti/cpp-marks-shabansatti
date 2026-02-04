@@ -114,5 +114,5 @@ int main() {
         cout << "Needs improvement - check the failing tests above.\n";
     }
 
-    return 0;
+    return total;
 }
